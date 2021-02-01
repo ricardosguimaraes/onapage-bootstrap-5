@@ -1,6 +1,7 @@
 html,
 body {
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 #header {
@@ -23,8 +24,20 @@ body {
 }
 
 #header .nav-link:hover {
-    border-bottom: solid 4px var(--secondary);
+    border-bottom: solid 4px var(--primary);
     color: var(--secondary);
 
 }
+
+#slider {
+    background: url(../img/bg_topo.svg) no-repeat center bottom;
+    background-size: contain;
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
 
