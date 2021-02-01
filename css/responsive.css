@@ -12,3 +12,12 @@
         width: 100%;
     }
 }
+
+@media (max-width: 767.98px){
+    #servicos a.destaque .img-container{
+        height: 160px;
+    }
+    #servicos a.destaque .img-container img{
+        max-width: 160px;
+    }
+}
