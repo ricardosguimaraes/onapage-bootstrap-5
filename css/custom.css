@@ -85,3 +85,63 @@ body {
 }
 
 
+#clientes a.link-cliente {
+    padding: 0 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--light);
+    height: 100px;
+    transition: ease-out all 0.2s;
+}
+
+#clientes a.link-cliente:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+    filter: none;
+}
+
+#clientes a.link-cliente img {
+    filter: grayscale(100%);
+    max-height:70px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#clientes a.link-cliente img:hover{
+    filter: none;
+    opacity: 1;
+}
+
+
+#galeria .badge {font-weight:normal;}
+
+#galeria .element-item img {
+    border-radius: 5px;
+    transition: all ease-out 0.2s;
+}
+
+#galeria .element-item img:hover {
+    box-shadow: 0 0 15PX 0 rgba(0, 0, 0, 0.15);
+}
+
+#galeria .button-group {margin-bottom:30px;}
+
+#galeria .button-group button {
+    background:none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight:700;
+    outline: none;
+}
+
+#galeria .button-group button + button {
+    margin-left: 30px;
+}
+
+#galeria .button-group button.active {
+    color: var(--primary);
+}
